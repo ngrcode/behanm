@@ -1,0 +1,95 @@
+{
+    "postAdd": {
+        "postAdd": {
+            "dialogTitle": "ایجاد پست",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "school": "مدرسه",
+            "categories": "دسته بندی",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "createdSuccessfully": "پست '{{title}}' با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "postEdit": {
+        "postEdit": {
+            "dialogTitle": "ویرایش پست",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "school": "مدرسه",
+            "categories": "دسته بندی",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "updatedSuccessfully": "پست '{{title}}' با موفقیت ویرایش شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "posts": {
+        "posts": {
+            "postStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },            
+            "titleText": "حذف پست",
+            "contentText": "آیا مایل به حذف این پست هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "پست {{ title }} با موفقیت حذف شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است"
+        },
+        "header": {
+            "schoolListHeader": {
+                "title": "لیست پست ها",
+                "create": "ایجاد پست"
+            }
+        },
+        "filter": {
+            "postListFilter": {
+                "title": "عنوان",
+                "categoryTitle": "عنوان دسته بندی",
+                "schoolTitle": "عنوان مدرسه",
+                "status": "وضعیت",
+                "titleText": "فیلتر پست ها",
+                "descriptionText": "فیلتر پیشرفته پست ها",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "postColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "image": "عکس",
+                "status": "وضعیت",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف"
+            }
+        }
+    }
+}

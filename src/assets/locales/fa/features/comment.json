@@ -1,0 +1,65 @@
+{
+    
+    "commentEdit": {
+        "commentEdit": {
+            "dialogTitle": "ویرایش نظر",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "title": "عنوان"
+        }
+    },
+    "comments": {
+        "filter": {
+            "commentListFilter": {
+                "title": "عنوان",
+                "categoryTitle": "عنوان دسته بندی",
+                "status": "وضعیت",
+                "titleText": "فیلتر نظرات",
+                "descriptionText": "فیلتر پیشرفته  نظرات ",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "header": {
+            "commentListHeader": {
+                "title": "لیست نظرات"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "commentColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "body": " متن نظر",
+                "post": "مطلب مرتبط",
+                "status": "وضعیت",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "commentStatus": {
+                    "published": "منتشر شده",
+                    "unpublished": "منتشر نشده",
+                    "draft": "پیش نویس"
+                }
+            }
+        },
+        "comments": {
+            "commentStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "titleText": "حذف دسته بندی",
+            "contentText": "آیا مایل به حذف این دسته بندی هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "نظر {{title}} با موفقیت حذف شد"
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "authorized": {
+        "drawer": {
+            "drawer": {
+                "users": "کاربران",
+                "regions": "مناطق",
+                "school": "مدرسه",
+                "schools": "مدارس",
+                "lessons": "دروس",
+                "rooms": "اتاق ها",
+                "classRooms": "کلاس ها",
+                "mosque": "مسجد",
+                "mosques": "مساجد",
+                "scopes": "حوزه ها",
+                "posts": "مطالب",
+                "comments": "نظرات کاربران",
+                "banners": "بنر ها",
+                "categories": "دسته بندی",
+                "educationComplexes": "مجتمع های آموزشی"
+            }
+        },
+        "header": {
+            "header": {
+                "title": "شهید بهنام محمدی",
+                "logout": "خروج"
+            }
+        }
+    },
+    "unauthorized": {
+        "login": {
+            "login": {
+                "title": "ورود به سیستم",
+                "username": "نام کاربری",
+                "password": "پسورد",
+                "enter": "ورود",
+                "register": "ثبت نام",
+                "role": "نقش کاربر ",
+                "validation": {
+                    "username": {
+                        "any": {
+                            "empty": "وارد کردن نام کاربری الزامی است"
+                        }
+                    },
+                    "password": {
+                        "any": {
+                            "empty": "وارد کردن پسورد الزامی است"
+                        }
+                    }
+                },
+                "userRoles":{
+                    "admin":"مدیر کل" ,
+                    "manager":"مدیر" ,
+                    "student":"دانش آموز" ,
+                    "parent":"والدین" ,
+                    "mentor":"مربی" ,
+                    "teacher":"معلم" 
+                }
+            }
+        },
+        "register": {
+            "register": {
+                "title": "ثبت نام در سیستم",
+                "username": "نام کاربری",
+                "password": "پسورد",
+                "firstName": "نام",
+                "lastName": "نام خانوادگی",
+                "fatherName": "نام پدر",
+                "nationalCode": "کد ملی",
+                "birthDate": "تاریخ تولد",
+                "gender": "جنسیت",
+                "isMarried": "وضعیت تاهل",
+                "save": "ثبت نام",
+                "login": "ورود",
+                "man": "آقا",
+                "woman": "خانم",
+                "validation": {
+                    "username": {
+                        "any": {
+                            "empty": "وارد کردن نام کاربری الزامی است"
+                        }
+                    },
+                    "password": {
+                        "any": {
+                            "empty": "وارد کردن پسورد الزامی است"
+                        }
+                    },
+                    "firstName": {
+                        "any": {
+                            "empty": "وارد کردن نام الزامی است"
+                        }
+                    },
+                    "lastName": {
+                        "any": {
+                            "empty": "وارد کردن نام خانوادگی الزامی است"
+                        }
+                    },
+                    "fatherName": {
+                        "any": {
+                            "empty": "وارد کردن نام پدر الزامی است"
+                        }
+                    },
+                    "nationalCode": {
+                        "any": {
+                            "empty": "وارد کردن کد ملی الزامی است"
+                        }
+                    },
+                    "birthDate": {
+                        "any": {
+                            "empty": "وارد کردن تاریخ تولد الزامی است"
+                        }
+                    },
+                    "gender": {
+                        "any": {
+                            "empty": "وارد کردن جنسیت الزامی است"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

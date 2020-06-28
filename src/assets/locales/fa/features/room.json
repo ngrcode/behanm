@@ -1,0 +1,75 @@
+{
+    "roomAdd": {
+        "roomAdd": {
+            "dialogTitle": "ایجاد اتاق",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "createdSuccessfully": "اتاق {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "roomEdit": {
+        "roomEdit": {
+            "dialogTitle": "ویرایش اتاق",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "updatedSuccessfully": "اتاق {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "rooms": {
+        "rooms": {
+            "titleText": "حذف اتاق",
+            "contentText": "آیا مایل به حذف این اتاق هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "عملیات حذف  {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "statuses": {
+                "unpublished": "منتشر نشده",
+                "published": "منتشر شده",
+                "draft": "پیش نویس"
+            }
+        },
+        "header": {
+            "roomListHeader": {
+                "title": "لیست اتاق های مدرسه {{school}}"
+            }
+        },
+        "filter": {
+            "roomListFilter": {
+                "title": "عنوان اتاق",
+                "homeClassTitle": "عنوان کلاس",
+                "homeClassYear": "سال",
+                "titleText": "فیلتر اتاق ها",
+                "descriptionText": "فیلتر پیشرفته اتاق ها",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر",
+                "status": "وضعیت"
+            }
+        },
+        "list": {
+            "createRoom": "ایجاد اتاق جدید",
+            "createHomeClass": "ایجاد کلاس جدید",
+            "displayedRowsFormat": "{{from}} تا {{to}} از {{count}}",
+            "roomColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "status": "وضعیت"
+            }
+        }
+    }
+}

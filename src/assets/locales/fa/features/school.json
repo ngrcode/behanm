@@ -1,0 +1,127 @@
+{
+    "schoolAdd": {
+        "schoolAdd": {
+            "dialogTitle": "ایجاد مدرسه",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "gender": "جنسیت",
+            "educationComplex": "مجتمع آموزشی",
+            "mosque": "مسجد",
+            "region": "منطقه",
+            "howze": "حوزه",
+            "createdSuccessfully": "مدرسه {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "coordinate": "نقطه جغرافیایی",
+            "validation": {}
+        }
+    },
+    "schoolEdit": {
+        "schoolEdit": {
+            "dialogTitle": "ویرایش مسجد",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "gender": "جنسیت",
+            "educationComplex": "مجتمع آموزشی",
+            "mosque": "مسجد",
+            "region": "منطقه",
+            "howze": "حوزه",
+            "updatedSuccessfully": "مدرسه {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "coordinate": "نقطه جغرافیایی",
+            "validation": {}
+        }
+    },
+    "schools": {
+        "schools": {
+            "schoolStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "schoolGenders": {
+                "man": "مذکر",
+                "woman": "مونث"
+            },
+            "contactTypes": {
+                "phone": "تلفن",
+                "mobile": "موبایل",
+                "email": "ایمیل",
+                "address": "آدرس",
+                "website": "وب سایت",
+                "fax": "فکس"
+            },
+            "titleText": "حذف مدرسه",
+            "contentText": "آیا مایل به حذف این مدرسه هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "عملیات حذف {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است"
+        },
+        "header": {
+            "schoolListHeader": {
+                "title": "لیست مدارس",
+                "create": "ایجاد مدرسه"
+            }
+        },
+        "filter": {
+            "schoolListFilter": {
+                "title": "عنوان",
+                "regionName": "نام منطقه",
+                "regionCode": "کد منطقه",
+                "howzeName": "نام حوزه",
+                "educationComplex": " مجتمع آموزشی",
+                "mosque": " مسجد ",
+                "status": "وضعیت",
+                "gender": "جنسیت",
+                "titleText": "فیلتر مدارس",
+                "descriptionText": "فیلتر پیشرفته مدارس",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "schoolColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "region": "منطقه",
+                "howze": "حوزه",
+                "mosque": "مسجد",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "operation": "عملیات",
+                "lessons": "دروس مدرسه",
+                "teachers": "معلمان مدرسه",
+                "students": "دانش آموزان مدرسه",
+                "parents": "والدین مدرسه",
+                "managers": "مدیران مدرسه",
+                "rooms": "اتاق های مدرسه",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "contacts": "ارتباطات",
+                "educationComplex": "مجتمع آموزشی"
+            }
+        }
+    }
+}

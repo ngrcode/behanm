@@ -1,0 +1,91 @@
+{
+    "categoryAdd": {
+        "categoryAdd": {
+            "dialogTitle": "ایجاد دسته بندی",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "body": "متن",
+            "type": "نوع",
+            "parent": "شاخه اصلی",
+            "createdSuccessfully": "دسته بندی {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "categoryEdit": {
+        "categoryEdit": {
+            "dialogTitle": "ایجاد دسته بندی",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "body": "متن",
+            "type": "نوع",
+            "parent": "شاخه اصلی",
+            "updatedSuccessfully": "دسته بندی {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "categories": {
+        "categories": {
+            "categoryStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "categoryTypes": {
+                "post": "پست",
+                "school": "مدرسه",
+                "banner": "بنر",
+                "position": "موقعیت",
+                "postPosition": "موقعیت پست",
+                "postGlobal": "پست سراسری",
+                "postContent": "پست محتوا",
+                "postSubject": "پست موضوع",
+                "postPub": "پست عمومی"
+            },
+            "titleText": "حذف دسته بندی",
+            "contentText": "آیا مایل به حذف این دسته بندی هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "عملیات حذف {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است"
+        },
+        "header": {
+            "categoryListHeader": {
+                "title": "لیست دسته بندی ها",
+                "create": "ایجاد دسته بندی"
+            }
+        },
+        "filter": {
+            "categoryListFilter": {
+                "title": "عنوان",
+                "status": "وضعیت ها",
+                "types": "انواع",
+                "titleText": "فیلتر دسته بندی ها",
+                "descriptionText": "فیلتر پیشرفته دسته بندی ها",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "categoryColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "body": "متن",
+                "type": "نوع",
+                "extra": "تکمیلی",
+                "createdBy": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifiedBy": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف"
+            }
+        }
+    }
+}

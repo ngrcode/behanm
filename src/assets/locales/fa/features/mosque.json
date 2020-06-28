@@ -1,0 +1,166 @@
+{
+    "mosqueAdd": {
+        "mosqueAdd": {
+            "dialogTitle": "ایجاد مسجد",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "code": "کد",
+            "imamName": "نام امام جمعه",
+            "region": "منطقه",
+            "howze": "حوزه",
+            "person": "متصدی مسجد",
+            "createdSuccessfully": "مسجد {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "coordinate": "نقطه جغرافیایی",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                },
+                "imamName": {
+                    "any": {
+                        "empty": "وارد کردن نام امام جمعه الزامی است"
+                    }
+                },
+                "code": {
+                    "any": {
+                        "empty": "وارد کردن کد الزامی است"
+                    }
+                },
+                "region": {
+                    "any": {
+                        "empty": "وارد کردن منطقه الزامی است"
+                    }
+                },
+                "howze": {
+                    "any": {
+                        "empty": "وارد کردن حوزه الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "mosqueEdit": {
+        "mosqueEdit": {
+            "dialogTitle": "ویرایش مسجد",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "code": "کد",
+            "imamName": "نام امام جمعه",
+            "region": "منطقه",
+            "howze": "حوزه",
+            "person": "متصدی مسجد",
+            "updatedSuccessfully": "مسجد {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "doordinate": "نقطه جغرافیایی",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                },
+                "imamName": {
+                    "any": {
+                        "empty": "وارد کردن نام امام جمعه الزامی است"
+                    }
+                },
+                "code": {
+                    "any": {
+                        "empty": "وارد کردن کد الزامی است"
+                    }
+                },
+                "region": {
+                    "any": {
+                        "empty": "وارد کردن منطقه الزامی است"
+                    }
+                },
+                "howze": {
+                    "any": {
+                        "empty": "وارد کردن حوزه الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "mosques": {
+        "mosques": {
+            "deletedSuccessfully": "عملیات حذف {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "status": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "contactTypes": {
+                "phone": "تلفن",
+                "mobile": "موبایل",
+                "email": "ایمیل",
+                "address": "آدرس",
+                "website": "وب سایت",
+                "fax": "فکس"
+            },
+            "titleText": "حذف مسجد",
+            "contentText": "آیا مایل به حذف این مسجد هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر"
+        },
+        "header": {
+            "mosqueListHeader": {
+                "title": "لیست مساجد",
+                "create": "ایجاد مسجد"
+            }
+        },
+        "filter": {
+            "mosqueListFilter": {
+                "title": "عنوان",
+                "regionName": "نام منطقه",
+                "regionCode": "کد منطقه",
+                "howzeName": "نام حوزه",
+                "status": "وضعیت",
+                "titleText": "فیلتر مساجد",
+                "descriptionText": "فیلتر پیشرفته مساجد",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "mosqueColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "code": "کد مسجد",
+                "imamName": "نام امام جماعت",
+                "region": "منطقه",
+                "school": "مدرسه",
+                "howze": "حوزه",
+                "person": "متصدی مسجد",
+                "extra": "تکمیلی",
+                "createdBy": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifiedBy": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف"
+            }
+        }
+    }
+}

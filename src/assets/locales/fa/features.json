@@ -1,0 +1,190 @@
+{
+    "post": {
+        "posts": {
+            "header": {
+                "postListHeader": {
+                    "title": "لیست پست ها",
+                    "button": "ایجاد پست"
+                }
+            },
+            "filter": {
+                "postListFilter": {
+                    "title": "عنوان",
+                    "forum": "نام فروم",
+                    "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است"
+                }
+            },
+            "posts": {},
+            "list": {
+                "postColumns": {
+                    "id": "ردیف",
+                    "idContent": "شناسه منحصر به فرد {{id}}",
+                    "image": "عکس",
+                    "author": "نویسنده",
+                    "status": "وضعیت",
+                    "title": "عنوان",
+                    "extra": "تکمیلی",
+                    "createdAt": "تاریخ ارسال",
+                    "operations": "عملیات",
+                    "createdOn": "تاریخ ایجاد",
+                    "createdBy": "ایجاد توسط",
+                    "edit": "ویرایش",
+                    "delete": "حذف"
+                }
+            }
+        },
+        "postAdd": {
+            "postAdd": {
+                "dialogTitle": "ایجاد پست",
+                "saveText": "ذخیره",
+                "closeText": "بستن",
+                "title": "عنوان",
+                "body": "متن",
+                "school": "مدرسه",
+                "category": "دسته بندی",
+                "createdSuccessfully": "پست '{{title}}' با موفقیت ایجاد شد",
+                "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+                "validation": {
+                    "title": {},
+                    "body": {}
+                }
+            }
+        },
+        "postEdit": {
+            "postEdit": {
+                "dialogTitle": "ویرایش پست",
+                "title": "عنوان",
+                "body": "متن",
+                "validation": {
+                    "title": {},
+                    "body": {}
+                }
+            }
+        }
+    },
+    "school": {
+        "schools": {
+            "header": {
+                "schoolListHeader": {
+                    "title": "لیست مدرسه ها",
+                    "button": "ایجاد مدرسه"
+                }
+            },
+            "filter": {
+                "schoolListFilter": {}
+            },
+            "schools": {},
+            "list": {
+                "schoolColumns": {
+                    "id": "ردیف",
+                    "idContent": "شناسه منحصر به فرد {{id}}",
+                    "image": "عکس",
+                    "phone": "نویسنده",
+                    "region": "منطقه",
+                    "gender": "جنسیت",
+                    "status": "وضعیت",
+                    "title": "عنوان",
+                    "extra": "تکمیلی",
+                    "createdAt": "تاریخ ارسال",
+                    "operations": "عملیات",
+                    "createdOn": "تاریخ ایجاد",
+                    "createdBy": "ایجاد توسط",
+                    "edit": "ویرایش",
+                    "delete": "حذف"
+                }
+            }
+        },
+        "schoolAdd": {
+            "schoolAdd": {
+                "dialogTitle": "ایجاد مدرسه",
+                "saveText": "ذخیره",
+                "closeText": "بستن",
+                "title": "عنوان",
+                "city": "شهر",
+                "hoze": "حوزه",
+                "province": "استان",
+                "address": "ادرس",
+                "mosque": "مسجد",
+                "gender": "جنسیت",
+                "section": "مقطع",
+                "phone": "تلفن",
+                "fax": "فکس",
+                "website": "وبسایت",
+                "imam": "امام جماعت",
+                "body": "متن",
+                "category": "دسته بندی",
+                "createdSuccessfully": "پست '{{title}}' با موفقیت ایجاد شد",
+                "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+                "validation": {
+                    "title": {},
+                    "body": {}
+                }
+            }
+        },
+        "schoolEdit": {
+            "schoolEdit": {
+                "dialogTitle": "ویرایش مدرسه",
+                "title": "عنوان",
+                "body": "متن",
+                "validation": {
+                    "title": {},
+                    "body": {}
+                }
+            }
+        }
+    },
+    "region": {
+        "regions": {
+            "list": {
+                "regionColumns": {
+                    "operations": "عملیات",
+                    "type": "نوع",
+                    "code": "کد",
+                    "nameLong": " نام کامل",
+                    "name": "نام",
+                    "id": "ردیف",
+                    "idContent": "شناسه منحصر به فرد {{id}}",
+                    "extra": "تکمیلی",
+                    "delete": "حذف",
+                    "edit": "ویرایش"
+                }
+            },
+            "header": {
+                "regionListHeader": {
+                    "create": "ایجاد منطقه",
+                    "title": "لیست منطقه"
+                }
+            },
+            "regions": {
+                "country": "کشور",
+                "province": "استان",
+                "city": "شهر",
+                "howze": "حوزه",
+                "titleText": "حذف منطقه",
+                "contentText": "آیا از حذف این منطقه مطمئنید ؟",
+                "agreeText": "بله",
+                "disagreeText": "خیر"
+            },
+            "filter": {
+                "regionListFilter": {
+                    "name": "نام",
+                    "titleText": "جست وجوی مناطق",
+                    "descriptionText": "ملاحظات",
+                    "filterText": "جست و جو",
+                    "clearText": "پاک کردن"
+                }
+            }
+        },
+        "regionAdd": {
+            "regionAdd": {
+                "dialogTitle": "ایجاد منطقه",
+                "type": "نوع",
+                "code": "کد",
+                "name": "نام",
+                "nameLong": "نام کامل",
+                "saveText": "ذخیره",
+                "closeText": "بستن"
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "regionAdd": {
+        "regionAdd": {
+            "dialogTitle": "ایجاد منطقه",
+            "name": "نام منطقه",
+            "code": "کد منطقه",
+            "nameLong": "نام منطقه کامل",
+            "type": "نوع منطقه",
+            "parent": "شاخه اصلی",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "createdSuccessfully": "منطقه {{name}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "regionEdit": {
+        "regionEdit": {
+            "dialogTitle": "ایجاد منطقه",
+            "name": "نام منطقه",
+            "code": "کد منطقه",
+            "nameLong": "نام منطقه کامل",
+            "type": "نوع منطقه",
+            "parent": "شاخه اصلی",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "updatedSuccessfully": "منطقه {{name}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "regions": {
+        "filter": {
+            "regionListFilter": {
+                "name": "نام منطقه",
+                "status": "وضعیت ها",
+                "types": "انواع",
+                "titleText": "جست وجوی مناطق",
+                "descriptionText": "فیلتر پیشرفته منطقه",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "header": {
+            "regionListHeader": {
+                "title": "لیست مناطق",
+                "create": "ایجاد منطقه"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "regionColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "name": "نام منطقه",
+                "code": "کد منطقه",
+                "nameLong": " نام کامل",
+                "parent": "شاخه اصلی",
+                "type": "نوع",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "schools": "لیست مدارس"
+            }
+        },
+        "regions": {
+            "deletedSuccessfully": "عملیات حذف {{name}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "regionStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "regionTypes": {
+                "country": "کشور",
+                "province": "استان",
+                "city": "شهر",
+                "howze": "حوزه"
+            },
+            "titleText": "حذف منطقه",
+            "contentText": "آیا مایل به حذف این منطقه هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر"
+        }
+    }
+}

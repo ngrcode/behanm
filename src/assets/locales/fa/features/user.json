@@ -1,0 +1,211 @@
+{
+    "userAdd": {
+        "userAdd": {
+            "dialogTitle": "ایجاد کاربر",
+            "firstName": "نام",
+            "lastName": "نام خانوادگی",
+            "nationalCode": "کدملی",
+            "username": "نام کاربری",
+            "password": "پسورد",
+            "birthDate": "تاریخ تولد",
+            "fatherName": "نام پدر",
+            "positions": "جایگاه شغلی",
+            "region": " منطقه",
+            "gender": "جنسیت",
+            "isMarried": "متاهل",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "createdSuccessfully": "کاربر {{firstName}} {{lastName}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "validation": {
+                "firstName": {},
+                "lastName": {},
+                "nationalCode": {},
+                "username": {
+                    "any": {
+                        "empty": "وارد کردن نام کاربری الزامی است"
+                    }
+                },
+                "password": {
+                    "any": {
+                        "empty": "وارد کردن  رمز عبور الزامی است"
+                    }
+                },
+                "birthDate": {},
+                "gender": {},
+                "isMarried": {},
+                "positions": {},
+                "file": {}
+            }
+        }
+    },
+    "userEdit": {
+        "userEdit": {
+            "dialogTitle": "ویرایش کاربر",
+            "firstName": "نام",
+            "lastName": "نام خانوادگی",
+            "nationalCode": "کدملی",
+            "username": "نام کاربری",
+            "password": "پسورد",
+            "birthDate": "تاریخ تولد",
+            "fatherName": "نام پدر",
+            "positions": "جایگاه شغلی",
+            "region": " منطقه",
+            "gender": "جنسیت",
+            "isMarried": "متاهل",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "updatedSuccessfully": "کاربر {{firstName}} {{lastName}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "contacts": {
+                "title": "ارتباطات",
+                "add": "افزودن",
+                "inputLabel": "مقدار ارتباط",
+                "selectLabel": "نوع ارتباط",
+                "emptyText": "متاسفانه! هیچ ارتباطی ثبت نشده است"
+            },
+            "validation": {
+                "firstName": {},
+                "lastName": {},
+                "nationalCode": {},
+                "username": {
+                    "any": {
+                        "empty": "وارد کردن نام کاربری الزامی است"
+                    }
+                },
+                "password": {
+                    "any": {
+                        "empty": "وارد کردن  رمز عبور الزامی است"
+                    }
+                },
+                "birthDate": {},
+                "gender": {},
+                "isMarried": {},
+                "positions": {},
+                "file": {}
+            }
+        }
+    },
+    "userProfileChangePassword": {
+        "userProfileChangePassword": {
+            "title": "تغییر رمز عبور",
+            "password": "پسورد",
+            "confirmPassword": "تایید پسورد",
+            "save": "تغییر رمز عبور",
+            "updatedSuccessfully": "رمز عبور کاربر با موفقیت تغییر کرد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {
+                "password": {
+                    "any": {
+                        "empty": "وارد کردن پسورد الزامی است"
+                    },
+                    "string": {
+                        "max": "پسورد نمی تواند بیشتر از 100 کاراکتر باشد",
+                        "min": "پسورد نمی تواند کمتر از 6 کاراکتر باشد"
+                    }
+                },
+                "confirmPassword": {
+                    "any": {
+                        "empty": "وارد کردن تایید پسورد الزامی است"
+                    },
+                    "string": {
+                        "max": "تایید پسورد نمی تواند بیشتر از 100 کاراکتر باشد",
+                        "min": "تایید پسورد نمی تواند کمتر از 6 کاراکتر باشد"
+                    }
+                }
+            }
+        }
+    },
+    "users": {
+        "filter": {
+            "userListFilter": {
+                "username": "نام کاربری",
+                "lastName": "نام خانوادگی",
+                "contact": "ایمیل یا تلفن ...",
+                "position": "جایگاه شغلی",
+                "school": "نام مدرسه",
+                "status": "وضعیت",
+                "titleText": "جست و جوی پیشرفته",
+                "descriptionText": "جست و جوی پیشرفته را می توانید از این بخش انجام دهید",
+                "clearText": "پاک کن",
+                "filterText": "اعمال فیلتر"
+            }
+        },
+        "header": {
+            "userListHeader": {
+                "title": "لیست کاربران",
+                "button": "ایجاد کاربر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "userColumns": {
+                "id": "ردیف",
+                "avatar": "آواتار",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "fullName": "نام کامل",
+                "username": "نام کاربری",
+                "nationalCode": "کدملی",
+                "birthDate": "تاریخ تولد",
+                "fatherName": "نام پدر",
+                "status": "وضعیت",
+                "extra": "تکمیلی",
+                "operations": "عملیات",
+                "createdAt": "تاریخ ایجاد",
+                "creator": "ایجاد توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "modifier": "آخرین ویرایش توسط",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "operation": "عملیات",
+                "maritalStatus": "وضعیت تاهل",
+                "married": "متاهل",
+                "single": "مجرد",
+                "contacts": "ارتباطات",
+                "positions": "جایگاه های شغلی",
+                "genders": {
+                    "man": "آقای",
+                    "woman": "خانم"
+                }
+            }
+        },
+        "users": {
+            "deletedSuccessfully": "عملیات حذف {{firstName}} {{lastName}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "status": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "genders": {
+                "man": "آقا",
+                "woman": "خانم"
+            },
+            "contactTypes": {
+                "phone": "تلفن",
+                "mobile": "موبایل",
+                "email": "ایمیل",
+                "address": "آدرس",
+                "website": "وب سایت",
+                "fax": "فکس"
+            },
+            "remove": {
+                "titleText": "حذف کاربر",
+                "contentText": "آیا مایل به حذف این کاربر هستید؟",
+                "agreeText": "حذف شود",
+                "disagreeText": "خیر"
+            }
+        }
+    }
+}

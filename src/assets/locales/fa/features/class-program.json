@@ -1,0 +1,105 @@
+{
+    "classProgramAdd": {
+        "classProgramAdd": {
+            "dialogTitle": "ایجاد برنامه",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "lesson": "درس",
+            "person": "دبیر",
+            "day": "روز",
+            "zang": "زنگ",
+            "createdSuccessfully": "برنامه {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "classProgramEdit": {
+        "classProgramEdit": {
+            "dialogTitle": "ویرایش برنامه",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "lesson": "درس",
+            "person": "دبیر",
+            "day": "روز",
+            "zang": "زنگ",
+            "updatedSuccessfully": "برنامه {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "classPrograms": {
+        "classPrograms": {
+            "breaks": {
+                "firstBreak": "زنگ اول",
+                "secondBreak": "زنگ دوم",
+                "thirdBreak": "زنگ سوم",
+                "fourthBreak": "زنگ چهارم",
+                "fifthBreak": "زنگ پنجم",
+                "sixthBreak": "زنگ ششم"
+            },
+            "days": {
+                "saturday": "شنبه",
+                "sunday": "یکشنبه",
+                "monday": "دوشنبه",
+                "tuesday": "سه شنبه",
+                "wednesday": "چهارشنبه",
+                "thursday": "پنجشنبه",
+                "friday": "جمعه"
+            },
+            "titleText": "حذف برنامه",
+            "contentText": "آیا مایل به حذف این برنامه هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "عملیات حذف  {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است"
+        },
+        "header": {
+            "classProgramListHeader": {
+                "title": "جدول کلاسی کلاس '{{title}}' در سال {{year}}",
+                "create": "ایجاد برنامه",
+                "showSecondThreeColumns": "نمایش سه زنگ بعدی"
+            }
+        },
+        "list": {
+            "classProgramColumns": {
+                "breaks": {
+                    "weekDays": "#",
+                    "firstBreak": "زنگ اول",
+                    "secondBreak": "زنگ دوم",
+                    "thirdBreak": "زنگ سوم",
+                    "fourthBreak": "زنگ چهارم",
+                    "fifthBreak": "زنگ پنجم",
+                    "sixthBreak": "زنگ ششم"
+                },
+                "days": {
+                    "saturday": "شنبه",
+                    "sunday": "یکشنبه",
+                    "monday": "دوشنبه",
+                    "tuesday": "سه شنبه",
+                    "wednesday": "چهارشنبه",
+                    "thursday": "پنجشنبه",
+                    "friday": "جمعه"
+                },
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "region": "منطقه",
+                "howze": "حوزه",
+                "mosque": "مسجد",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "operation": "عملیات",
+                "lessons": "دروس مدرسه",
+                "rooms": "اتاق های مدرسه",
+                "edit": "ویرایش",
+                "delete": "حذف"
+            }
+        }
+    }
+}

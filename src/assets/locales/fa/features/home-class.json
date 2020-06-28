@@ -1,0 +1,46 @@
+{
+    "homeClassAdd": {
+        "homeClassAdd": {
+            "dialogTitle": "ایجاد کلاس",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "year": "سال",
+            "createdSuccessfully": "کلاس {{title}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "homeClassEdit": {
+        "homeClassEdit": {
+            "dialogTitle": "ویرایش کلاس",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "title": "عنوان",
+            "year": "سال",
+            "updatedSuccessfully": "کلاس {{title}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "homeClasses": {
+        "homeClasses": {
+            "titleText": "حذف اتاق",
+            "contentText": "آیا مایل به حذف این کلاس هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "عملیات حذف  {{title}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "list": {
+                "createHomeClass": "ایجاد کلاس جدید",
+                "displayedRowsFormat": "{{from}} تا {{to}} از {{count}}"
+            },
+            "filter": {
+                "title": "عنوان",
+                "year": "سال",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "educationComplexAdd": {
+        "educationComplexAdd": {
+            "dialogTitle": "ایجاد مجتمع آموزشی",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "name": "نام مجتمع",
+            "region": " منطقه",
+            "person": " مدیر مجتمع",
+            "createdSuccessfully": "مجتمع آموزشی {{name}} با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "educationComplexEdit": {
+        "educationComplexEdit": {
+            "dialogTitle": "ویرایش مجتمع آموزشی",
+            "closeText": "بستن",
+            "saveText": "ذخیره",
+            "name": "نام مجتمع",
+            "region": " منطقه",
+            "person": " مدیر مجتمع",
+            "updatedSuccessfully": "مجتمع آموزشی {{name}} با موفقیت بروزرسانی گردید",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {}
+        }
+    },
+    "educationComplexes": {
+        "educationComplexes": {
+            "deletedSuccessfully": "عملیات حذف {{name}} با موفقیت انجام شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "titleText": "حذف درس",
+            "contentText": "آیا مایل به حذف این مجتمع آموزشی هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر"
+        },
+        "header": {
+            "educationComplexListHeader": {
+                "title": "لیست مجتمع ها",
+                "create": "ایجاد مجتمع آموزشی"
+            }
+        },
+        "filter": {
+            "educationComplexListFilter": {
+                "name": "نام مجتمع",
+                "titleText": "فیلتر مجتمع ها",
+                "descriptionText": "فیلتر پیشرفته مجتمع ها",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "educationComplexColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "name": "نام مجتمع",
+                "region": " منطقه",
+                "person": "مدیر مجتمع",
+                "schools": "مدارس",
+                "extra": "تکمیلی",
+                "createdBy": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifiedBy": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف"
+            }
+        }
+    }
+}

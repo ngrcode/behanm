@@ -1,0 +1,97 @@
+{
+    "bannerAdd": {
+        "bannerAdd": {
+            "dialogTitle": "ایجاد بنر",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "title": "عنوان",
+            "targetLink": "مسیر پیش فرض",
+            "categories": "دسته بندی",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "createdSuccessfully": "بنر '{{title}}' با موفقیت ایجاد شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "bannerEdit": {
+        "bannerEdit": {
+            "dialogTitle": "ویرایش بنر",
+            "saveText": "ذخیره",
+            "closeText": "بستن",
+            "title": "عنوان",
+            "targetLink": "مسیر پیش فرض",
+            "categories": "دسته بندی",
+            "imageRemoveText": "حذف عکس",
+            "imageUploadText": "انتخاب عکس",
+            "updatedSuccessfully": "بنر '{{title}}' با موفقیت ویرایش شد",
+            "unexpectedError": "متاسفانه خطای غیر منتظره در سرور رخ داده است",
+            "validation": {
+                "title": {
+                    "any": {
+                        "empty": "وارد کردن عنوان الزامی است"
+                    }
+                }
+            }
+        }
+    },
+    "banners": {
+        "filter": {
+            "bannerListFilter": {
+                "title": "عنوان",
+                "categoryTitle": "عنوان  دسته بندی",
+                "status": "وضعیت",
+                "titleText": "فیلتر بنرها",
+                "descriptionText": "فیلتر پیشرفته بنرها",
+                "clearText": "پاک کردن",
+                "filterText": "فیلتر"
+            }
+        },
+        "header": {
+            "bannerListHeader": {
+                "title": "لیست بنرها",
+                "create": "ایجاد بنر"
+            }
+        },
+        "list": {
+            "displayedRowsFormat": "رکورد {{from}} تا {{to}} از مجموع {{count}} رکورد",
+            "bannerColumns": {
+                "id": "ردیف",
+                "idContent": "شناسه منحصر به فرد {{id}}",
+                "title": "عنوان",
+                "status": "وضعیت",
+                "extra": "تکمیلی",
+                "creator": "ایجاد توسط",
+                "createdAt": "تاریخ ایجاد",
+                "modifier": "آخرین ویرایش توسط",
+                "modifiedAt": "تاریخ آخرین ویرایش",
+                "operations": "عملیات",
+                "edit": "ویرایش",
+                "delete": "حذف",
+                "bannerStatus": {
+                    "published": "منتشر شده",
+                    "unpublished": "منتشر نشده",
+                    "draft": "پیش نویس"
+                }
+            }
+        },
+        "banners": {
+            "bannerStatus": {
+                "published": "منتشر شده",
+                "unpublished": "منتشر نشده",
+                "draft": "پیش نویس"
+            },
+            "titleText": "حذف بنر",
+            "contentText": "آیا مایل به حذف این  بنر هستید؟",
+            "agreeText": "حذف شود",
+            "disagreeText": "خیر",
+            "deletedSuccessfully": "بنر {{title}} با موفقیت حذف شد"
+        }
+    }
+}
